@@ -1,0 +1,172 @@
+/* Global font */
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+/* Container */
+.container {
+    width: 90%;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    margin-top: 30px;
+}
+
+/* Title */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background: #28a745;
+    color: white;
+}
+
+/* Buttons */
+.btn-tambah {
+    display: inline-block;
+    padding: 8px 14px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+.btn-edit {
+    background: #ffc107;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+}
+.btn-hapus {
+    background: #dc3545;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Form */
+.form-container {
+    width: 400px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    margin-top: 40px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #28a745;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background: #218838;
+}
+
+.back {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color:#007bff;
+}
+/* ============================
+   STYLE UNTUK DATA BUKU
+=============================== */
+body {
+  font-family: Arial, sans-serif; /* samakan font */
+  background: #f8f9fa;
+  margin: 20px;
+}
+
+h2 {
+  color: #2b6cb0;
+  margin-bottom: 12px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 14px;
+  background: #2b6cb0;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  margin: 8px 0;
+}
+
+.btn:hover { background: #1a4e85; }
+
+.btn-edit {
+  color: #fff;
+  background: #4caf50;
+  padding: 4px 8px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn-delete {
+  color: #fff;
+  background: #e63946;
+  padding: 4px 8px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+form {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+form input, form button {
+  margin: 6px 0;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form button {
+  background: #2b6cb0;
+  color: white;
+  border: none;
+}

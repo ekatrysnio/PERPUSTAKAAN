@@ -1,0 +1,42 @@
+
+/* Global */
+body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;background:#f6f6f6;color:#222}
+a{color:inherit}
+.container{width:90%;max-width:1100px;margin:24px auto}
+
+/* Topbar */
+.topbar{display:flex;align-items:center;gap:16px;padding:12px 20px;background:linear-gradient(90deg,#d32f2f,#ff6f61);color:#fff;border-radius:8px}
+.topbar img.logo{height:56px}
+.topbar .title{font-size:22px;font-weight:700}
+
+/* Card */
+.card{background:#fff;padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.06);}
+
+/* Dashboard grid */
+.grid{display:flex;gap:14px;margin-top:18px}
+.grid .card-link{flex:1;padding:18px;border-radius:10px;text-align:center;background:#fff;border:1px solid #eee;text-decoration:none;color:#333;display:block}
+
+/* Tables */
+table{width:100%;border-collapse:collapse;margin-top:12px}
+th,td{padding:10px;border-bottom:1px solid #eee;text-align:left}
+th{background:#d32f2f;color:#fff}
+
+/* Buttons */
+.btn{display:inline-block;padding:8px 14px;border-radius:8px;background:#d32f2f;color:#fff;text-decoration:none}
+.btn.small{padding:6px 10px;border-radius:6px;font-size:14px}
+.btn.edit{background:#ffb300;color:#111}
+.btn.delete{background:#c62828}
+
+/* Form */
+.form-container{max-width:520px;margin:30px auto;background:#fff;padding:20px;border-radius:10px}
+.form-container h2{text-align:center;color:#d32f2f;margin-bottom:10px}
+.form-container label{display:block;margin-top:8px;font-weight:700}
+.form-container input, .form-container select, .form-container textarea{width:100%;padding:10px;margin-top:6px;border-radius:8px;border:1px solid #ddd;box-sizing:border-box}
+.form-container button{width:100%;padding:12px;margin-top:16px;background:#d32f2f;color:#fff;border:none;border-radius:8px;cursor:pointer}
+
+/* small helpers */
+.text-right{text-align:right}
+.center{text-align:center}
+
+/* responsive */
+@media(max-width:700px){.grid{flex-direction:column}}
